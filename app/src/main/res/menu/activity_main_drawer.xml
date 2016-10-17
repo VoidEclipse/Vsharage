@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_profile"
+            android:icon="@drawable/profile_icon"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/activity_messages"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="Сообщения" />
+        <item
+            android:id="@+id/activity_task_table"
+            android:icon="@drawable/task_table_icon"
+            android:title="Стол заказов" />
+        <item
+            android:id="@+id/activity_settings"
+            android:icon="@drawable/settings_icon"
+            android:title="Настройки" />
+        <item
+            android:id="@+id/activity_about"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="О приложении" />
+    </group>
+
+</menu>
